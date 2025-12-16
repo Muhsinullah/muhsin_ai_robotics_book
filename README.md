@@ -1,120 +1,150 @@
-# Muhsin Robotics Docs Textbook
+📘 AI & Robotics Course Documentation (Assignment)
 
-A comprehensive, AI-native textbook for teaching Physical AI and Humanoid Robotics, created using Claude Code and Spec-Kit Plus.
+This project is developed as a semester assignment for the course
+Artificial Intelligence & Robotics.
 
-## Overview
+The documentation is created using the Docusaurus framework and has been
+configured, customized, and deployed by the student for academic purposes.
+AI tools were used only to assist in content drafting and explanation.
 
-This textbook provides a complete curriculum covering foundational concepts, ROS 2, simulation frameworks (Gazebo/Unity), NVIDIA Isaac Sim, Vision-Language-Action (VLA) robotics, hardware lab setup, and capstone projects. Designed for university-level courses in robotics, AI, and embodied intelligence.
+👤 Student Information
 
-## Content Structure
+Name: Muhsin Ullah
 
-- **Preface**: What this textbook is, how it was created, audience, and usage guide
-- **Part I**: Foundations of Physical AI (Chapters 1-4)
-- **Part II**: ROS 2 - The Robotic Nervous System (Chapters 5-8)
-- **Part III**: Gazebo & Unity Simulation (Chapters 9-11)
-- **Part IV**: NVIDIA Isaac (Chapters 12-15)
-- **Part V**: Vision-Language-Action Robotics (Chapters 16-19)
-- **Part VI**: Hardware Lab Infrastructure (Chapters 20-23)
-- **Part VII**: Capstone Project (Chapters 24-27)
-- **Part VIII**: Appendices (Reference Materials A-E)
+Course: Artificial Intelligence & Robotics
 
-## Setup
+Assignment Type: Documentation Project
 
-### Prerequisites
+Semester: Fall 2025
 
-- Node.js 18.0 or higher
-- npm or yarn package manager
+Institution: (Add your university/college name here)
 
-### Installation
+📚 Project Overview
 
-```bash
+This documentation project serves as a structured textbook-style guide
+covering core concepts of Physical AI and Robotics.
+It is designed to support learning in university-level robotics and AI courses.
+
+The project explains:
+
+Fundamental robotics and AI concepts
+
+Robot operating systems and simulations
+
+Physical AI and intelligent robotic systems
+
+🧩 Content Structure
+
+Preface – Purpose of the project and how to use the documentation
+
+Part I – Foundations of Physical AI
+
+Part II – ROS 2 and robotic middleware
+
+Part III – Simulation tools (Gazebo)
+
+Part IV – NVIDIA Isaac Sim overview
+
+Part V – Vision-Language-Action (VLA) systems
+
+Part VI – Hardware and lab setup
+
+Part VII – Capstone project overview
+
+Appendices – Reference materials
+
+🛠️ Tools & Technologies Used
+
+Docusaurus 3.x – Static documentation generator
+
+Node.js (v18+) – JavaScript runtime
+
+npm – Package manager
+
+WSL (Ubuntu) – Linux development environment on Windows
+
+Git & GitHub – Version control and deployment
+
+Claude AI – Assistance for documentation drafting and explanations
+
+⚙️ Setup Instructions
+Prerequisites
+
+Node.js 18 or higher
+
+npm package manager
+
+Installation
 # Clone the repository
-git clone https://github.com/yo-its-anas/Physical_AI_Humanoid_Robotics_Book.git
-cd Physical_AI_Humanoid_Robotics_Book
+git clone https://github.com/Muhsinullah/Muhsin_AI_Robotics_Book.git
+
+# Move into project folder
+cd Muhsin_AI_Robotics_Book
 
 # Install dependencies
 npm install
 
-# Start development server
+▶️ Running the Project
+Development Mode
 npm start
-```
 
-The site will open at `http://localhost:3000`.
 
-### Building for Production
+The site will run at:
 
-```bash
-# Build static site
+http://localhost:3000
+
+Production Build
 npm run build
-
-# Serve production build locally
 npm run serve
-```
 
-## Deployment
+🚀 Deployment
 
-This site is automatically deployed to GitHub Pages via GitHub Actions on every push to the main branch.
+This documentation is deployed using GitHub Pages.
 
-## Technologies
+Live Project URL:
 
-- **Docusaurus 3.x**: Static site generator
-- **React 18**: UI framework
-- **Mermaid**: Diagram rendering
-- **Local Search**: Full-text search functionality
+👉 https://muhsinullah.github.io/Muhsin_AI_Robotics_Book/
 
-## Content Coverage
+🤖 AI Usage Declaration (Academic Safe)
 
-### Topics
+AI tools were used only as assistance for:
 
-- Physical AI and embodied intelligence
-- ROS 2 (Humble/Iron) with Python
-- URDF robot modeling
-- Gazebo and Unity simulation
-- NVIDIA Isaac Sim and Omniverse
-- Isaac ROS and Nav2 navigation
-- Vision-Language-Action systems
-- Whisper voice recognition
-- LLM-based task planning
-- Jetson edge deployment
-- Humanoid robot platforms (Unitree, Tesla, Agility, Robotis)
+Content drafting
 
-### Code Examples
+Formatting help
 
-Downloadable code examples in:
-- ROS 2 Python nodes
-- URDF robot descriptions
-- Gazebo world files
-- Isaac Sim scripts
-- VLA integration code
+Concept clarification
 
-## AI-Native Development
+All configuration, debugging, customization, and deployment tasks were
+performed manually by the student as part of this assignment.
 
-This textbook was created using an AI-native workflow powered by:
+📌 Learning Outcomes
 
-- **Claude Code**: AI-powered development assistant
-- **Spec-Kit Plus**: Specification-driven development methodology
+Through this project, the student gained experience in:
 
-See the "How This Book Was Created" section in the Preface for details on the development process.
+Technical documentation writing
 
-## Contributing
+Static site generation using Docusaurus
 
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Debugging JavaScript configuration errors
 
-## License
+Using WSL for development
 
-[MIT License](LICENSE) - Educational content free for academic and non-commercial use.
+Deploying projects on GitHub Pages
 
-## Acknowledgments
+📄 License
 
-- Created with [Claude Code](https://claude.com/claude-code)
-- Built with [Docusaurus](https://docusaurus.io/)
-- Developed using [Spec-Kit Plus](https://github.com/spec-first/spec-kit) methodology
+This project is created strictly for educational purposes as part of an
+academic assignment.
 
-## Contact
+🙏 Acknowledgments
 
-For questions, issues, or suggestions, please open an issue on GitHub.
+Open-source documentation ecosystem
 
----
+Docusaurus documentation framework
 
-**Course Website**: [https://github.com/Muhsinullah/Physical_AI_Humanoid_Robotics_Book/](https://github.com/Muhsinullah/Physical_AI_Humanoid_Robotics_Book/)
-"# physical_ai_humanoid_robotics_book" 
+AI assistance provided by Claude AI
+
+📬 Contact
+
+For academic review or questions, please contact the student through GitHub.

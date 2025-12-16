@@ -1,18 +1,19 @@
 // @ts-check
 
-const {themes} = require('prism-react-renderer');
+const { themes } = require('prism-react-renderer');
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Muhsin Robotics Docs',
+  title: 'AI Robotics Docs',
   tagline: 'Documentation created by Muhsin Ullah for AI Robotics coursework',
   favicon: 'img/favicon.ico',
 
-  url: "https://github.com/Muhsinullah",             /***url */
-  baseUrl: "/",
-  organizationName: 'MT Web',
+  url: 'https://muhsinullah.github.io',
+  baseUrl: '/Muhsin_AI_Robotics_Book/',
+
+  organizationName: 'Muhsinullah',
   projectName: 'Muhsin_AI_Robotics_Book',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -28,23 +29,22 @@ const config = {
   presets: [
     [
       'classic',
-      ({
+      {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/Muhsinullah/Physical_AI_Humanoid_Robotics_Book/edit/main/',
-          showLastUpdateTime: false,
-          showLastUpdateAuthor: false,
+          editUrl:
+            'https://github.com/Muhsinullah/Muhsin_AI_Robotics_Book/edit/main/',
         },
         blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
-  themeConfig: ({
+  themeConfig: {
     navbar: {
       title: 'Muhsin Physical AI Robotics Documentation',
       logo: {
@@ -81,7 +81,10 @@ const config = {
           title: 'Resources',
           items: [
             { label: 'ROS 2 Documentation', href: 'https://docs.ros.org/' },
-            { label: 'NVIDIA Isaac Sim', href: 'https://docs.omniverse.nvidia.com/isaacsim/' },
+            {
+              label: 'NVIDIA Isaac Sim',
+              href: 'https://docs.omniverse.nvidia.com/isaacsim/',
+            },
             { label: 'Gazebo', href: 'https://gazebosim.org/' },
           ],
         },
@@ -89,14 +92,17 @@ const config = {
           title: 'More',
           items: [
             { label: 'GitHub', href: 'https://github.com/Muhsinullah' },
-            { label: 'Created with Claude Code', href: 'https://claude.com/claude-code' },
+            {
+              label: 'Created with Claude Code',
+              href: 'https://claude.com/claude-code',
+            },
           ],
         },
       ],
-
-      copyright: `Copyright © ${new Date().getFullYear()} Muhsin Ullah — AI Robotics Documentation.,
+      copyright:
+        `Copyright © ${new Date().getFullYear()} Muhsin Ullah — AI Robotics Documentation.`,
     },
-    
+
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
@@ -107,7 +113,7 @@ const config = {
       minHeadingLevel: 2,
       maxHeadingLevel: 4,
     },
-  }),
+  },
 
   plugins: [
     [
@@ -123,6 +129,7 @@ const config = {
   markdown: {
     mermaid: true,
   },
+
   themes: ['@docusaurus/theme-mermaid'],
 };
 
