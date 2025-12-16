@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   url: 'https://muhsinullah.github.io',
-  baseUrl: '/Muhsin_AI_Robotics_Book/',
+  baseUrl: '/muhsin_ai_robotics_book/',
 
   organizationName: 'Muhsinullah',
   projectName: 'Muhsin_AI_Robotics_Book',
