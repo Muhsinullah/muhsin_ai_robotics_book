@@ -34,7 +34,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/Muhsinullah/Muhsin_AI_Robotics_Book/edit/main/',
+            'https://github.com/Muhsinullah/muhsin_ai_robotics_book/edit/main/',
         },
         blog: false,
         theme: {

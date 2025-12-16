@@ -103,7 +103,8 @@ This documentation is deployed using GitHub Pages.
 
 Live Project URL:
 
-👉 https://muhsinullah.github.io/Muhsin_AI_Robotics_Book/
+👉 https://muhsinullah.github.io/muhsin_ai_robotics_book/
+
 
 🤖 AI Usage Declaration (Academic Safe)
 
